@@ -1,12 +1,44 @@
-# React + Vite
+# ToDoList App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+یک برنامه‌ی **ToDoList** ساخته شده با **React** که امکانات کامل **CRUD** (Create, Read, Update, Delete) را فراهم می‌کند. این پروژه برای یادگیری و تمرین ابزارهای مدرن ری‌اکت و مدیریت state طراحی شده است.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ویژگی‌ها
 
-## Expanding the ESLint configuration
+- مدیریت کامل ToDoها با استفاده از **RTK Query**  
+- فرم ثبت‌نام و ورود کاربران با **Formik** و **Yup** (برای اعتبارسنجی فرم‌ها)  
+- مسیریابی صفحات با **React Router DOM**  
+- طراحی واکنش‌گرا و زیبا با **Tailwind CSS** و **Daisy UI**  
+- استفاده از **JSON Server** به عنوان API محلی برای ذخیره و بازیابی داده‌ها  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## تکنولوژی‌ها
+
+- **React**  
+- **Redux Toolkit + RTK Query**  
+- **Formik & Yup**  
+- **React Router DOM**  
+- **Tailwind CSS & Daisy UI**  
+- **JSON Server**  
+
+---
+
+
+## نصب و راه‌اندازی
+- git clone <repo-url>
+- cd <project-folder>
+- npm install
+- npm run server
+- npm run dev
+
+- http://localhost:5173 : اپلیکیشن در مرورگر روی آدرس زیر (یا مشابه آن) اجرا خواهد شد
+
+ ### 📋 پیش‌نیازها
+
+برای اجرای این پروژه باید موارد زیر روی سیستم شما نصب باشد:
+
+Node.js (نسخه 16 یا بالاتر)
+
+NPM یا Yarn
